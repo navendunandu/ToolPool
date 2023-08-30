@@ -1,0 +1,107 @@
+/* CSS Document */
+body {
+	background-color:#000;
+	
+}
+.main {
+	color:#FFF;
+	position: relative;
+	font-family:"Alegreya Sans SC Medium";
+}
+#heading{
+	color: #CCC;
+	 font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+#login
+{
+	font-size:2em;
+}
+.main label
+{
+	background-color:black;
+	
+	padding: 0 10px;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	text-transform: capitalize;
+	pointer-events: none;
+	font-size: 20px;
+	transition: all 0.3s;
+}
+.main input
+{
+	padding: 18px 15px;
+	width: 300px;
+	border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+	outline: none;
+	font-size: 16px;
+	font-family: inherit;
+	background-color: transparent;
+	color: #fff;
+	border-radius: 10px;
+}
+.main input:focus + label,
+.main input:not(:placeholder-shown) + label{
+	top: 0;
+	font-size: 20px;
+}
+.content 
+{
+	alignment-adjust:middle;
+}
+.button
+{
+	background-color: #000;
+	border-color: #CCC;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.extra
+{
+	border-top-style: none;
+    
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
